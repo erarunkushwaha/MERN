@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+/*End of common style*/
+.container{
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid rgb(242,244,248);
+    background-color: rgb(242,244,248);
+    font-family: monospace;
+    /* font-size: 30rem; */
+    font-weight:200;
+    color: #424242;
+
+}
+
+.num{
+    /* position: relative; */
+    /* width: 100%; */
+    /* border: 2px solid red; */
+   margin-top: 10rem;
+   text-align: center;
+   font-size: 30rem;
+   
+}
+.cards-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.card{
+    /* border-radius: 1rem 1rem; */
+    flex-basis: 20%;
+    margin: 1.5rem;
+    text-align: center;
+    height: 10rem;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem 1rem #a3afc5;
+    background-color: #fff;
+    position: relative;
+
+}
+span{
+    position: absolute;
+    color: #7397B2;
+    font-size: 1.2rem;
+    right: .2rem;
+}
+.event{
+    font-size: 1.5rem;
+    /* border-bottom: 1px solid red; */
+    padding: 1rem;
+    border-radius: .5rem  .5rem 0 0 ;
+    background-color: #B9E9FF;
+    box-shadow: .1rem .1rem .1rem #999;
+    /* height: 1.5rem; */
+}
+.event-key-text{
+ 
+   margin-top: 1rem;
+   font-size: 3.5rem;
+}
+@media (max-width:1300px) {
+    .card{
+        flex-basis: 35%;  
+    }
+
+}
+
+@media (max-width:750px) {
+    .card{
+        flex-basis: 100%;  
+    }
+    .num{
+        font-size: 25rem;
+    }
+    
+}
+@media (max-width:450px) {
+    html{
+        font-size: 60%;
+    }
+    .num{
+        font-size: 20rem;
+    }
+}
