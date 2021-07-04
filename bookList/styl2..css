@@ -17,6 +17,30 @@ html{
 .heading{
     margin-bottom: 2rem;
 }
+.alert{
+    width: 100%;
+    border: 1px solid black;
+    padding: .5rem;
+    text-align: center;
+    font-size: 1.4rem;
+    color: white;
+    letter-spacing: .2rem;
+    font-weight: bold;
+}
+.danger{
+    background-color: rgba(241, 46, 46, 0.884);
+}
+.success{
+    background-color: rgb(63, 201, 63);
+
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: .3rem;
+    border-radius: 50%;
+}
 .form{
     display: flex;
     flex-direction: column;

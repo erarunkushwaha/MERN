@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(226, 221, 215);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    /* text-align: center; */
+    letter-spacing: .2rem;
+    font-size: 5rem;
+    color: rgb(233, 57, 195);
+    text-shadow: .2rem .2rem  .2rem rgb(66, 50, 50);
+}
+.input-form{
+    margin: 10rem 0; 
+}
+.input{
+    width: 40rem;
+    border-radius: 1.5rem;
+    border: 2px solid rgb(233, 57, 195);
+    outline: none;
+    padding: .5rem 5rem;
+}
+.input::placeholder{
+    letter-spacing: .4rem;
+    text-align: center;
+
+}
+
+
+.button{
+    border-radius: 1rem;
+    padding: .4rem 1rem;
+    letter-spacing: .2rem;
+    border: 2px solid rgb(233, 57, 195);
+    margin-left: 1rem;
+    cursor: pointer;
+    transition:  .3s;
+}
+.button:hover{
+    background-color: rgb(233, 57, 195);
+    color: #fff;
+    border: 2px solid white;
+    transition:  .3s;
+}
+
+th{
+    letter-spacing: .5rem;
+}
+
+th, td{
+    width: 20rem;
+    text-align: center;
+    padding: .8rem;
+    font-size: 1.5rem;
+
+}
+tr{
+    box-shadow: .1rem .1rem .2rem rgb(233, 57, 195);
+}
+.edit{
+    color: green;
+    font-size: 2rem;
+}
+.delete{
+    color: red;
+    font-size: 2rem;   
+}
+
